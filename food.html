@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .gallery-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            padding: 1rem;
+            background-color: #f9f9f9;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        .gallery-item h2, .gallery-item p {
+            margin: 0.5rem 0;
+        }
+        .price {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="aa" src="LOGO.png" alt="Logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="food.html">Explore Food</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="orderform.html">Contact Us</a>
+                  </li>
+                
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="gallery container mt-4">
+        <div class="gallery-item">
+            <img src="1.jpeg" alt="Food 1">
+            <h2>Burger</h2>
+            <div class="price">$10.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="2.jpeg" alt="Food 2">
+            <p>Piza</p>
+            <div class="price">$12.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="3.avif" alt="Food 3">
+            <p>Shake</p>
+            <div class="price">$8.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="4.jpeg" alt="Food 4">
+            <p>Grilled Chicken</p>
+            <div class="price">$9.49</div>
+        </div>
+        <div class="gallery-item">
+            <img src="5.jpeg" alt="Food 5">
+            <p>Chilli Chicken</p>
+            <div class="price">$11.49</div>
+        </div>
+        <div class="gallery-item">
+            <img src="6.jpeg" alt="Food 6">
+            <p>Noodles</p>
+            <div class="price">$13.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="7.jpg" alt="Food 7">
+            <p>Red Sauce Pasta</p>
+            <div class="price">$7.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="8.jpeg" alt="Food 8">
+            <p>White Sauce Pasta</p>
+            <div class="price">$6.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="9.jpeg" alt="Food 9">
+            <p>Cappuccino</p>
+            <div class="price">$14.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="10.jpeg" alt="Food 10">
+            <p>Tacos</p>
+            <div class="price">$5.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="11.jpeg" alt="Food 11">
+            <p>Manchurian</p>
+            <div class="price">$9.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="12.jpeg" alt="Food 12">
+            <p>Momos</p>
+            <div class="price">$8.49</div>
+        </div>
+        <div class="gallery-item">
+            <img src="13.jpeg" alt="Food 13">
+            <p>Spring Roll</p>
+            <div class="price">$10.49</div>
+        </div>
+        <div class="gallery-item">
+            <img src="14.jpeg" alt="Food 14">
+            <p>Chilli Paneer</p>
+            <div class="price">$7.49</div>
+        </div>
+        <div class="gallery-item">
+            <img src="15.jpeg" alt="Food 15">
+            <p>Ice-Cream</p>
+            <div class="price">$9.49</div>
+        </div>
+        <div class="gallery-item">
+            <img src="16.jpeg" alt="Food 16">
+            <p>Gulab Jamun</p>
+            <div class="price">$11.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="17.jpeg" alt="Food 17">
+            <p>Salad</p>
+            <div class="price">$8.79</div>
+        </div>
+        <div class="gallery-item">
+            <img src="18.jpeg" alt="Food 18">
+            <p>Soup</p>
+            <div class="price">$10.79</div>
+        </div>
+        <div class="gallery-item">
+            <img src="19.jpeg" alt="Food 19">
+            <p>Sandwich</p>
+            <div class="price">$7.99</div>
+        </div>
+        <div class="gallery-item">
+            <img src="20.jpeg" alt="Food 20">
+            <p>Afghani Chicken</p>
+            <div class="price">$6.49</div>
+        </div>
+        <div class="gallery-item">
+            <img src="21.jpeg" alt="Food 21">
+            <p>Fries and Cold Drink</p>
+            <div class="price">$9.79</div>
+        </div>
+        <div class="gallery-item">
+            <img src="22.jpeg" alt="Food 22">
+            <p>Chocolava Cake</p>
+            <div class="price">$12.49</div>
+        </div>
+        <div class="gallery-item">
+            <img src="23.jpeg" alt="Food 23">
+            <p>Chilli Fish</p>
+            <div class="price">$11.79</div>
+        </div>
+        <div class="gallery-item">
+            <img src="24.jpeg" alt="Food 24">
+            <p>Chesse Garlic Bread</p>
+            <div class="price">$8.49</div>
+        </div>
+        <div class="gallery-item">
+            <img src="25.jpeg" alt="Food 25">
+            <p>Dosa</p>
+            <div class="price">$10.79</div>
+        </div>
+        <div class="gallery-item">
+            <img src="26.jpeg" alt="Food 26">
+            <p>Multigrain-Sub</p>
+            <div class="price">$15.99</div>
+        </div>
+    </div>
+    <div class="mt-4 text-center">
+        <a href="orderform.html" class="main-btn btn btn-primary">Order now <i class="fas fa-shopping-basket ps-3"></i></a>
+    </div>
+    </body>
+    </html>
+   
