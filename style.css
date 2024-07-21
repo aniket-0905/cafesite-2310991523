@@ -23,6 +23,10 @@
     margin-top: 0;
     padding-top: 0;
   }
+a{
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+}
  /* Add this code to make the navbar responsive */
 
 @media only screen and (max-width: 768px) {
